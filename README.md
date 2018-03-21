@@ -1,6 +1,6 @@
 # Radiological Protection Supervisor Software 
 
-## Software developed in CSS Studio dor Radiolocal protection
+## Software developed in CSS Studio for Radiological protection
 
 In construction 
 
