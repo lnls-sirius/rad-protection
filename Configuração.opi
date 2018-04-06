@@ -141,7 +141,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -157,7 +157,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Limite</name>
     <rules />
@@ -173,15 +173,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>155</width>
+    <width>218</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6924</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>131</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -197,7 +197,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_3</name>
     <rules />
@@ -213,15 +213,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>180</width>
+    <width>251</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6923</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>232</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -237,7 +237,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_4</name>
     <rules />
@@ -253,15 +253,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>151</width>
+    <width>211</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6922</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>182</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -277,7 +277,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>20</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_5</name>
     <rules />
@@ -293,15 +293,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>229</width>
+    <width>175</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6921</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>381</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -317,7 +317,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>20</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_6</name>
     <rules />
@@ -333,15 +333,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>211</width>
+    <width>215</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6920</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>431</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -357,7 +357,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>20</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_7</name>
     <rules />
@@ -373,15 +373,15 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>175</width>
+    <width>213</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-691f</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>481</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -397,7 +397,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>20</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_8</name>
     <rules />
@@ -413,10 +413,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>175</width>
+    <width>130</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-691e</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>531</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -456,7 +456,7 @@ $(pv_value)</tooltip>
     <width>223</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-691d</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>579</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -496,7 +496,7 @@ $(pv_value)</tooltip>
     <width>250</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-691c</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>631</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -517,7 +517,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_12</name>
     <rules />
@@ -533,10 +533,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>207</width>
+    <width>289</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-691b</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>331</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1165,7 +1165,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
-    <auto_size>false</auto_size>
+    <auto_size>true</auto_size>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -1181,7 +1181,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_14</name>
     <rules />
@@ -1197,10 +1197,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>208</width>
+    <width>291</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-690e</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>281</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -1851,7 +1851,7 @@ $(pv_value)</tooltip>
     <width>265</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-6450</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>681</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1891,7 +1891,7 @@ $(pv_value)</tooltip>
     <width>265</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-644f</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>781</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1925,7 +1925,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_13</name>
     <precision>0</precision>
@@ -2090,7 +2090,7 @@ $(pv_value)</tooltip>
     <width>265</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-5d17</wuid>
-    <x>336</x>
+    <x>294</x>
     <y>731</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2135,7 +2135,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2152,9 +2152,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-537c</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>130</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2199,7 +2199,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_1</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2216,9 +2216,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52c1</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>180</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2263,7 +2263,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_2</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2280,9 +2280,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52bc</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>480</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2327,7 +2327,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_3</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2344,9 +2344,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52b7</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>430</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2391,7 +2391,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_4</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2408,9 +2408,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52b2</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>380</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2455,7 +2455,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_5</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2472,9 +2472,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52ad</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>330</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2519,7 +2519,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_6</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2536,9 +2536,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52a8</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>280</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2583,7 +2583,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_7</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2600,9 +2600,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-52a3</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>230</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2647,7 +2647,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_8</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2664,9 +2664,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-526c</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>530</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2711,7 +2711,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_9</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2728,9 +2728,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-526b</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>580</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2775,7 +2775,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_12</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2792,9 +2792,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-5268</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>780</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2839,7 +2839,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_13</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2856,9 +2856,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-5267</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>730</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2903,7 +2903,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_14</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2920,9 +2920,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-5266</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>680</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
@@ -2967,7 +2967,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>20</height>
-    <label>Parâmetro alterado</label>
+    <label>Alterar parâmetro</label>
     <name>Menu Button_15</name>
     <pv_name></pv_name>
     <pv_value />
@@ -2984,9 +2984,9 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <visible>true</visible>
     <widget_type>Menu Button</widget_type>
-    <width>150</width>
+    <width>250</width>
     <wuid>-441c4af7:16261f53d26:-5265</wuid>
-    <x>706</x>
+    <x>650</x>
     <y>630</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
@@ -3016,7 +3016,7 @@ $(pv_value)</tooltip>
     <horizontal_alignment>1</horizontal_alignment>
     <horizontal_buttons_layout>true</horizontal_buttons_layout>
     <limits_from_pv>true</limits_from_pv>
-    <maximum>Infinity</maximum>
+    <maximum>1.7976931348623157E308</maximum>
     <minimum>0.0</minimum>
     <name>Spinner</name>
     <page_increment>1.0</page_increment>
