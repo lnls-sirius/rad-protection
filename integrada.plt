@@ -41,7 +41,7 @@
             <log_scale>false</log_scale>
         </axis>
         <axis>
-            <visible>false</visible>
+            <visible>true</visible>
             <name>Value 2</name>
             <use_axis_name>false</use_axis_name>
             <use_trace_names>false</use_trace_names>
@@ -69,9 +69,9 @@
             <name>RAD:ELSE:DoseIntegral</name>
             <axis>0</axis>
             <color>
-                <red>255</red>
-                <green>64</green>
-                <blue>217</blue>
+                <red>0</red>
+                <green>255</green>
+                <blue>0</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
@@ -117,9 +117,9 @@
             <name>RAD:Berthold:IntegralRate</name>
             <axis>0</axis>
             <color>
-                <red>0</red>
-                <green>255</green>
-                <blue>0</blue>
+                <red>255</red>
+                <green>0</green>
+                <blue>255</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
@@ -136,7 +136,7 @@
             </archive>
         </pv>
         <formula>
-            <display_name>B</display_name>
+            <display_name>limite</display_name>
             <visible>true</visible>
             <name>B</name>
             <axis>0</axis>
@@ -156,5 +156,101 @@
                 <name>x2</name>
             </input>
         </formula>
+        <pv>
+            <display_name>RAD:THERMO:IntegralGamma</display_name>
+            <visible>true</visible>
+            <name>RAD:THERMO:IntegralGamma</name>
+            <axis>0</axis>
+            <color>
+                <red>0</red>
+                <green>0</green>
+                <blue>0</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>RAD:THERMO:IntegralNeutron</display_name>
+            <visible>true</visible>
+            <name>RAD:THERMO:IntegralNeutron</name>
+            <axis>0</axis>
+            <color>
+                <red>190</red>
+                <green>190</green>
+                <blue>190</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>RAD:ELSE:IntegralGamma</display_name>
+            <visible>true</visible>
+            <name>RAD:ELSE:IntegralGamma</name>
+            <axis>0</axis>
+            <color>
+                <red>255</red>
+                <green>128</green>
+                <blue>0</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
+        <pv>
+            <display_name>RAD:ELSE:IntegralNeutron</display_name>
+            <visible>true</visible>
+            <name>RAD:ELSE:IntegralNeutron</name>
+            <axis>0</axis>
+            <color>
+                <red>150</red>
+                <green>0</green>
+                <blue>0</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
+        </pv>
     </pvlist>
 </databrowser>

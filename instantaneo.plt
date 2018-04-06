@@ -141,9 +141,9 @@
             <name>RAD:ELSE:TotalDoseRate</name>
             <axis>0</axis>
             <color>
-                <red>30</red>
-                <green>200</green>
-                <blue>30</blue>
+                <red>0</red>
+                <green>255</green>
+                <blue>0</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
@@ -285,9 +285,9 @@
             <name>RAD:Berthold:HighEnergyNeutrons</name>
             <axis>0</axis>
             <color>
-                <red>190</red>
-                <green>190</green>
-                <blue>190</blue>
+                <red>0</red>
+                <green>128</green>
+                <blue>0</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
@@ -304,7 +304,7 @@
             </archive>
         </pv>
         <formula>
-            <display_name>RAD:BackGround</display_name>
+            <display_name>Bg Berthold</display_name>
             <visible>true</visible>
             <name>RAD:BackGround</name>
             <axis>0</axis>
@@ -324,5 +324,43 @@
                 <name>x1</name>
             </input>
         </formula>
+        <pv>
+            <display_name>Bg ELSE</display_name>
+            <visible>true</visible>
+            <name>Bg ELSE</name>
+            <axis>0</axis>
+            <color>
+                <red>255</red>
+                <green>0</green>
+                <blue>128</blue>
+            </color>
+            <trace_type>SINGLE_LINE_DIRECT</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+        </pv>
+        <pv>
+            <display_name>Bg THERMO</display_name>
+            <visible>true</visible>
+            <name>Bg THERMO</name>
+            <axis>0</axis>
+            <color>
+                <red>0</red>
+                <green>0</green>
+                <blue>128</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <period>0.0</period>
+            <ring_size>5000</ring_size>
+            <request>OPTIMIZED</request>
+        </pv>
     </pvlist>
 </databrowser>
