@@ -306,7 +306,7 @@
         <formula>
             <display_name>Bg Berthold</display_name>
             <visible>true</visible>
-            <name>RAD:BackGround</name>
+            <name>RAD:Berthold:BG</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -324,43 +324,47 @@
                 <name>x1</name>
             </input>
         </formula>
-        <pv>
-            <display_name>Bg ELSE</display_name>
+        <formula>
+            <display_name>RAD:THERMO:BG</display_name>
             <visible>true</visible>
-            <name>Bg ELSE</name>
+            <name>RAD:THERMO:BG</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
-                <green>0</green>
-                <blue>128</blue>
-            </color>
-            <trace_type>SINGLE_LINE_DIRECT</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
-        </pv>
-        <pv>
-            <display_name>Bg THERMO</display_name>
-            <visible>true</visible>
-            <name>Bg THERMO</name>
-            <axis>0</axis>
-            <color>
-                <red>0</red>
-                <green>0</green>
-                <blue>128</blue>
+                <green>232</green>
+                <blue>173</blue>
             </color>
             <trace_type>AREA</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
-        </pv>
+            <formula>x5-x5</formula>
+            <input>
+                <pv>RAD:THERMO:TotalDoseRate</pv>
+                <name>x5</name>
+            </input>
+        </formula>
+        <formula>
+            <display_name>RAD:ELSE:BG</display_name>
+            <visible>true</visible>
+            <name>RAD:ELSE:BG</name>
+            <axis>0</axis>
+            <color>
+                <red>173</red>
+                <green>216</green>
+                <blue>230</blue>
+            </color>
+            <trace_type>AREA</trace_type>
+            <linewidth>2</linewidth>
+            <point_type>NONE</point_type>
+            <point_size>2</point_size>
+            <waveform_index>0</waveform_index>
+            <formula>x4-x4</formula>
+            <input>
+                <pv>RAD:ELSE:TotalDoseRate</pv>
+                <name>x4</name>
+            </input>
+        </formula>
     </pvlist>
 </databrowser>

@@ -40,25 +40,6 @@
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
         </axis>
-        <axis>
-            <visible>true</visible>
-            <name>Value 2</name>
-            <use_axis_name>false</use_axis_name>
-            <use_trace_names>false</use_trace_names>
-            <right>false</right>
-            <color>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-            </color>
-            <label_font>|10|0</label_font>
-            <scale_font>|10|0</scale_font>
-            <min>0.45072547307575334</min>
-            <max>0.4943954730757534</max>
-            <grid>false</grid>
-            <autoscale>false</autoscale>
-            <log_scale>false</log_scale>
-        </axis>
     </axes>
     <annotations>
     </annotations>
