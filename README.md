@@ -14,27 +14,27 @@ The supervisory was developed with the purpose of performing the radiological ar
 
 On the main frame of the supervisory we have an overview of all the PV's in two dynamic screens. The readings are performed by the following probes:
 
-Else Nuclear - Saturn II 5702 containing an ICP-T-PF gamma detector and a LUPIN 5401 BF3-NP neutron detector;
-ThermoFisher Scientific - FHT 6020 containing a FHT 192-10 gamma detector and a FHT 762 neutron detector;
-Berthold Technologies - LB 6420 Dose Meter For Measuring Pulsed Radiation.
+* **Else Nuclear** - Saturn II 5702 containing an ICP-T-PF gamma detector and a LUPIN 5401 BF3-NP neutron detector;
+* **ThermoFisher Scientific** - FHT 6020 containing a FHT 192-10 gamma detector and a FHT 762 neutron detector;
+* **Berthold Technologies** - LB 6420 Dose Meter For Measuring Pulsed Radiation.
 
 The name of the PV consists of RAD, symbolizing the domain of the radiation protection department, followed by the name of the detector manufacturer and, finally, the variable addressed. Gamma radiation dose, neutron dose and total dose (sum of neutron dose  and gamma dose) and integrated dose in 4h are performed. Two lines were inserted into the graphs representing the limit for the integrated dose (2uSv) and the mean value for the background.
 
 All PV names are listed below:
 
-RAD:ELSE:DoseIntegral
-RAD:THERMO:DoseIntegral
-RAD:Berthold:IntegralRate
-RAD:ELSE:Gamma
-RAD:ELSE:Neutron
-RAD:ELSE:TotalDoseRate
-RAD:THERMO:Gamma
-RAD:THERMO:Neutron
-RAD:THERMO:TotalDoseRate
-RAD:Berthold:Gamma
-RAD:Berthold:TotalNeutronRate
-RAD:Berthold:TotalDoseRate
-RAD:Berthold:HighEnergyNeutrons
+* RAD:ELSE:DoseIntegral
+* RAD:THERMO:DoseIntegral
+* RAD:Berthold:IntegralRate
+* RAD:ELSE:Gamma
+* RAD:ELSE:Neutron
+* RAD:ELSE:TotalDoseRate
+* RAD:THERMO:Gamma
+* RAD:THERMO:Neutron
+* RAD:THERMO:TotalDoseRate
+* RAD:Berthold:Gamma
+* RAD:Berthold:TotalNeutronRate
+* RAD:Berthold:TotalDoseRate
+* RAD:Berthold:HighEnergyNeutrons
 
 Ps.: The Berthold probe, in addition to the cited PVs, there is a dose measurement due to fast neutrons displayed on the second screen (RAD:Berthold:HighEnergyNeutrons).
 
