@@ -22,19 +22,24 @@ The name of the PV consists of RAD, symbolizing the domain of the radiation prot
 
 All PV names are listed below:
 
-* RAD:ELSE:DoseIntegral
-* RAD:THERMO:DoseIntegral
-* RAD:Berthold:IntegralRate
 * RAD:ELSE:Gamma
 * RAD:ELSE:Neutron
 * RAD:ELSE:TotalDoseRate
+* RAD:ELSE:DoseIntegral
+* RAD:ELSE:IntegralGamma
 * RAD:THERMO:Gamma
 * RAD:THERMO:Neutron
 * RAD:THERMO:TotalDoseRate
+* RAD:THERMO:DoseIntegral
+* RAD:THERMO:IntegralGamma
+* RAD:THERMO:IntegralNeutron
 * RAD:Berthold:Gamma
 * RAD:Berthold:TotalNeutronRate
 * RAD:Berthold:TotalDoseRate
 * RAD:Berthold:HighEnergyNeutrons
+* RAD:Berthold:DoseIntegral
+* RAD:Berthold:IntegralGamma
+* RAD:Berthold:IntegralNeutron
 
 Ps.: The Berthold probe, in addition to the cited PVs, there is a dose measurement due to fast neutrons displayed on the second screen (RAD:Berthold:HighEnergyNeutrons).
 
