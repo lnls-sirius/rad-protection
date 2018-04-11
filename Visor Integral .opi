@@ -122,7 +122,7 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Data Browser</widget_type>
-    <width>1600</width>
+    <width>1580</width>
     <wuid>-3dcd369b:162542adbe0:-7ba2</wuid>
     <x>0</x>
     <y>90</y>
@@ -176,8 +176,8 @@ $(pv_value)</tooltip>
     <width>100</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7290</wuid>
-    <x>1428</x>
-    <y>788</y>
+    <x>1410</x>
+    <y>784</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -216,8 +216,8 @@ $(pv_value)</tooltip>
     <width>59</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728f</wuid>
-    <x>1534</x>
-    <y>786</y>
+    <x>1500</x>
+    <y>782</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -256,7 +256,7 @@ $(pv_value)</tooltip>
     <width>260</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728e</wuid>
-    <x>624</x>
+    <x>594</x>
     <y>778</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -296,7 +296,7 @@ $(pv_value)</tooltip>
     <width>222</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728d</wuid>
-    <x>1086</x>
+    <x>1056</x>
     <y>782</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -327,7 +327,7 @@ $(pv_value)</tooltip>
     <name>Text Update_10</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:THERMO:DoseIntegral</pv_name>
+    <pv_name>RAD:ELSE:IntegralGamma</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -345,10 +345,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728c</wuid>
-    <x>980</x>
+    <x>966</x>
     <y>819</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -397,10 +397,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728b</wuid>
-    <x>980</x>
+    <x>966</x>
     <y>784</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -431,7 +431,7 @@ $(pv_value)</tooltip>
     <name>Text Update_12</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:IntegralRate</pv_name>
+    <pv_name>RAD:ELSE:IntegralNeutron</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -449,10 +449,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728a</wuid>
-    <x>980</x>
+    <x>966</x>
     <y>854</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -483,16 +483,16 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:Berthold:IntegralRate</text>
+    <text>RAD:Berthold:DoseIntegral</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>256</width>
+    <width>260</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7289</wuid>
-    <x>156</x>
+    <x>126</x>
     <y>778</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -539,7 +539,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>30</width>
     <wuid>6e7c8824:16296f05d63:-7288</wuid>
-    <x>1342</x>
+    <x>1374</x>
     <y>784</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -732,8 +732,8 @@ $(pv_value)</tooltip>
     <width>38</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7284</wuid>
-    <x>1466</x>
-    <y>788</y>
+    <x>1452</x>
+    <y>780</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -784,8 +784,8 @@ $(pv_value)</tooltip>
     <width>288</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7283</wuid>
-    <x>156</x>
-    <y>815</y>
+    <x>126</x>
+    <y>811</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -836,8 +836,8 @@ $(pv_value)</tooltip>
     <width>250</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7282</wuid>
-    <x>1086</x>
-    <y>819</y>
+    <x>1056</x>
+    <y>815</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -888,8 +888,8 @@ $(pv_value)</tooltip>
     <width>257</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7281</wuid>
-    <x>1086</x>
-    <y>854</y>
+    <x>1056</x>
+    <y>850</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -940,8 +940,8 @@ $(pv_value)</tooltip>
     <width>288</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7280</wuid>
-    <x>624</x>
-    <y>815</y>
+    <x>594</x>
+    <y>811</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -992,8 +992,8 @@ $(pv_value)</tooltip>
     <width>295</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727f</wuid>
-    <x>624</x>
-    <y>850</y>
+    <x>594</x>
+    <y>846</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1044,8 +1044,8 @@ $(pv_value)</tooltip>
     <width>295</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727e</wuid>
-    <x>156</x>
-    <y>850</y>
+    <x>126</x>
+    <y>846</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false" />
@@ -1351,7 +1351,7 @@ $(pv_value)</tooltip>
     <name>Text Update_27</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:Berthold:DoseIntegral</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1369,10 +1369,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>73</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-6b35</wuid>
-    <x>48</x>
+    <x>36</x>
     <y>780</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1403,7 +1403,7 @@ $(pv_value)</tooltip>
     <name>Text Update_28</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:Berthold:IntegralGamma</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1421,10 +1421,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>73</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-6ad0</wuid>
-    <x>48</x>
+    <x>36</x>
     <y>815</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1455,7 +1455,7 @@ $(pv_value)</tooltip>
     <name>Text Update_29</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:Berthold:IntegralNeutron</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1473,10 +1473,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>73</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-6a7d</wuid>
-    <x>48</x>
+    <x>36</x>
     <y>850</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1507,7 +1507,7 @@ $(pv_value)</tooltip>
     <name>Text Update_30</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:THERMO:DoseIntegral</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1525,10 +1525,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-69c0</wuid>
-    <x>510</x>
+    <x>504</x>
     <y>780</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1559,7 +1559,7 @@ $(pv_value)</tooltip>
     <name>Text Update_31</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:THERMO:IntegralGamma</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1577,10 +1577,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-6970</wuid>
-    <x>510</x>
+    <x>504</x>
     <y>815</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1611,7 +1611,7 @@ $(pv_value)</tooltip>
     <name>Text Update_32</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name></pv_name>
+    <pv_name>RAD:THERMO:IntegralNeutron</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1629,10 +1629,10 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>100</width>
+    <width>79</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-693d</wuid>
-    <x>510</x>
+    <x>504</x>
     <y>850</y>
   </widget>
 </display>

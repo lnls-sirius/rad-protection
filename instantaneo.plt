@@ -34,10 +34,10 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.03116842105263161</min>
-            <max>0.5892315789473684</max>
+            <min>-0.03145</min>
+            <max>0.66045</max>
             <grid>false</grid>
-            <autoscale>false</autoscale>
+            <autoscale>true</autoscale>
             <log_scale>false</log_scale>
         </axis>
         <axis>
