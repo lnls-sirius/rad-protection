@@ -1236,7 +1236,7 @@ $(pv_value)</tooltip>
     <alarm_pulsing>false</alarm_pulsing>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+      <color red="159" green="150" blue="150" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>

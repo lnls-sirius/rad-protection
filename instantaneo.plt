@@ -34,27 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.03145</min>
-            <max>0.66045</max>
-            <grid>false</grid>
-            <autoscale>true</autoscale>
-            <log_scale>false</log_scale>
-        </axis>
-        <axis>
-            <visible>false</visible>
-            <name>Value 2</name>
-            <use_axis_name>false</use_axis_name>
-            <use_trace_names>true</use_trace_names>
-            <right>false</right>
-            <color>
-                <red>0</red>
-                <green>0</green>
-                <blue>0</blue>
-            </color>
-            <label_font>|10|0</label_font>
-            <scale_font>|10|0</scale_font>
-            <min>-0.0038830430483723696</min>
-            <max>0.07124695695162765</max>
+            <min>0.0017598058252427662</min>
+            <max>0.3515598058252427</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
             <log_scale>false</log_scale>
@@ -237,9 +218,9 @@
             <name>RAD:THERMO:Neutron</name>
             <axis>0</axis>
             <color>
-                <red>128</red>
-                <green>0</green>
-                <blue>255</blue>
+                <red>159</red>
+                <green>150</green>
+                <blue>150</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
