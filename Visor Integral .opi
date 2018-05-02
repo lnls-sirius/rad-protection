@@ -122,7 +122,7 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Data Browser</widget_type>
-    <width>1580</width>
+    <width>1550</width>
     <wuid>-3dcd369b:162542adbe0:-7ba2</wuid>
     <x>0</x>
     <y>90</y>
@@ -169,14 +169,14 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
     <width>100</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7290</wuid>
-    <x>1410</x>
+    <x>1398</x>
     <y>784</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -197,7 +197,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Limite</name>
     <rules />
@@ -209,15 +209,15 @@ $(pv_value)</tooltip>
     <scripts />
     <text>Limite</text>
     <tooltip></tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>59</width>
+    <width>43</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728f</wuid>
-    <x>1500</x>
-    <y>782</y>
+    <x>1506</x>
+    <y>785</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -237,7 +237,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_3</name>
     <rules />
@@ -253,7 +253,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>260</width>
+    <width>188</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728e</wuid>
     <x>594</x>
@@ -277,7 +277,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_4</name>
     <rules />
@@ -293,7 +293,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>222</width>
+    <width>161</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728d</wuid>
     <x>1056</x>
@@ -341,7 +341,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -393,7 +393,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -445,7 +445,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -473,7 +473,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_14</name>
     <rules />
@@ -489,7 +489,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>260</width>
+    <width>188</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7289</wuid>
     <x>126</x>
@@ -539,7 +539,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>30</width>
     <wuid>6e7c8824:16296f05d63:-7288</wuid>
-    <x>1374</x>
+    <x>1362</x>
     <y>784</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -706,7 +706,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_15</name>
     <precision>0</precision>
@@ -725,15 +725,15 @@ $(pv_value)</tooltip>
     <text>uSv</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>38</width>
+    <width>29</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7284</wuid>
-    <x>1452</x>
-    <y>780</y>
+    <x>1458</x>
+    <y>783</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -758,7 +758,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_21</name>
     <precision>0</precision>
@@ -777,11 +777,11 @@ $(pv_value)</tooltip>
     <text>RAD:Berthold:IntegralGamma</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>288</width>
+    <width>209</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7283</wuid>
     <x>126</x>
@@ -810,7 +810,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_22</name>
     <precision>0</precision>
@@ -829,11 +829,11 @@ $(pv_value)</tooltip>
     <text>RAD:ELSE:IntegralGamma</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>250</width>
+    <width>182</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7282</wuid>
     <x>1056</x>
@@ -862,7 +862,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_23</name>
     <precision>0</precision>
@@ -881,11 +881,11 @@ $(pv_value)</tooltip>
     <text>RAD:ELSE:IntegralNeutron</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>257</width>
+    <width>188</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7281</wuid>
     <x>1056</x>
@@ -914,7 +914,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_24</name>
     <precision>0</precision>
@@ -933,11 +933,11 @@ $(pv_value)</tooltip>
     <text>RAD:THERMO:IntegralGamma</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>288</width>
+    <width>209</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7280</wuid>
     <x>594</x>
@@ -966,7 +966,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_25</name>
     <precision>0</precision>
@@ -985,11 +985,11 @@ $(pv_value)</tooltip>
     <text>RAD:THERMO:IntegralNeutron</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>295</width>
+    <width>215</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727f</wuid>
     <x>594</x>
@@ -1018,7 +1018,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_26</name>
     <precision>0</precision>
@@ -1037,11 +1037,11 @@ $(pv_value)</tooltip>
     <text>RAD:Berthold:IntegralNeutron</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>295</width>
+    <width>215</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727e</wuid>
     <x>126</x>
@@ -1365,7 +1365,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -1417,7 +1417,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -1469,7 +1469,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -1521,7 +1521,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -1573,7 +1573,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
@@ -1625,7 +1625,7 @@ $(pv_value)</tooltip>
     <text>######</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>

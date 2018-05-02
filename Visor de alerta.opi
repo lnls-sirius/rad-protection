@@ -58,18 +58,18 @@
     <confirm_message></confirm_message>
     <enabled>true</enabled>
     <font>
-      <opifont.name fontName="Ubuntu" height="19" style="1" pixels="false">Header 1</opifont.name>
+      <opifont.name fontName="Ubuntu" height="30" style="1" pixels="false">Monitor Title</opifont.name>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>82</height>
+    <height>79</height>
     <horizontal_alignment>0</horizontal_alignment>
     <limits_from_pv>false</limits_from_pv>
-    <maximum>Infinity</maximum>
-    <minimum>-Infinity</minimum>
+    <maximum>1.7976931348623157E308</maximum>
+    <minimum>-1.7976931348623157E308</minimum>
     <multiline_input>false</multiline_input>
     <name>Text Input</name>
     <precision>0</precision>
@@ -108,10 +108,10 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Text Input</widget_type>
-    <width>664</width>
+    <width>757</width>
     <wuid>-6f7c48a2:162f8b2cb63:-7cb2</wuid>
-    <x>900</x>
-    <y>0</y>
+    <x>798</x>
+    <y>-1</y>
   </widget>
   <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -148,7 +148,7 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Data Browser</widget_type>
-    <width>1580</width>
+    <width>1550</width>
     <wuid>-6f7c48a2:162f8b2cb63:-7c62</wuid>
     <x>0</x>
     <y>90</y>
@@ -177,11 +177,11 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>65</height>
+    <height>47</height>
     <horizontal_alignment>0</horizontal_alignment>
     <limits_from_pv>false</limits_from_pv>
-    <maximum>Infinity</maximum>
-    <minimum>-Infinity</minimum>
+    <maximum>1.7976931348623157E308</maximum>
+    <minimum>-1.7976931348623157E308</minimum>
     <multiline_input>false</multiline_input>
     <name>Text Input_1</name>
     <precision>0</precision>
@@ -219,15 +219,15 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <visible>true</visible>
     <widget_type>Text Input</widget_type>
-    <width>582</width>
+    <width>419</width>
     <wuid>-6f7c48a2:162f8b2cb63:-7bb0</wuid>
     <x>72</x>
-    <y>15</y>
+    <y>19</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <actions hook="false" hook_all="false">
       <action type="EXECUTE_CMD">
-        <command>python-sirius /opt/lnls-studio/CSS/RAD-email-linac/email-linac.py</command>
+        <command>python-sirius /opt/lnls-studio/rad-protection/email-linac.py</command>
         <command_directory>$(user.home)</command_directory>
         <wait_time>10</wait_time>
         <description></description>
@@ -283,7 +283,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>61</width>
     <wuid>-6f7c48a2:162f8b2cb63:-7c18</wuid>
-    <x>750</x>
+    <x>624</x>
     <y>15</y>
   </widget>
 </display>
