@@ -294,7 +294,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label</name>
     <rules />
@@ -310,7 +310,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>54</width>
+    <width>75</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-7c58</wuid>
     <x>120</x>
@@ -334,7 +334,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_1</name>
     <rules />
@@ -350,7 +350,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>82</width>
+    <width>112</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5dab</wuid>
     <x>460</x>
@@ -374,7 +374,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_2</name>
     <rules />
@@ -390,7 +390,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>100</width>
+    <width>137</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5b59</wuid>
     <x>1140</x>
@@ -466,7 +466,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Limite</name>
     <rules />
@@ -482,7 +482,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>100</width>
+    <width>139</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-59d0</wuid>
     <x>1066</x>
@@ -506,7 +506,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_3</name>
     <rules />
@@ -522,7 +522,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>188</width>
+    <width>260</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-58e6</wuid>
     <x>1066</x>
@@ -546,7 +546,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_4</name>
     <rules />
@@ -562,7 +562,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>161</width>
+    <width>222</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5817</wuid>
     <x>1066</x>
@@ -586,7 +586,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_5</name>
     <rules />
@@ -602,7 +602,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>130</width>
+    <width>178</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5773</wuid>
     <x>1066</x>
@@ -626,7 +626,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_6</name>
     <rules />
@@ -642,7 +642,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>171</width>
+    <width>237</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-55f1</wuid>
     <x>1066</x>
@@ -666,7 +666,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_7</name>
     <rules />
@@ -682,7 +682,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>151</width>
+    <width>209</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-54fd</wuid>
     <x>1064</x>
@@ -706,7 +706,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_8</name>
     <rules />
@@ -722,7 +722,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>157</width>
+    <width>216</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-543d</wuid>
     <x>1064</x>
@@ -746,7 +746,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_9</name>
     <rules />
@@ -762,7 +762,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>198</width>
+    <width>275</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-538f</wuid>
     <x>1064</x>
@@ -786,7 +786,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_10</name>
     <rules />
@@ -802,7 +802,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>151</width>
+    <width>209</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-52f5</wuid>
     <x>1064</x>
@@ -826,7 +826,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_11</name>
     <rules />
@@ -842,7 +842,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>221</width>
+    <width>306</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-524e</wuid>
     <x>1064</x>
@@ -866,7 +866,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_12</name>
     <rules />
@@ -882,7 +882,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>124</width>
+    <width>171</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5192</wuid>
     <x>1066</x>
@@ -906,7 +906,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_13</name>
     <rules />
@@ -922,7 +922,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>198</width>
+    <width>275</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-5120</wuid>
     <x>1064</x>
@@ -1570,7 +1570,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_14</name>
     <rules />
@@ -1586,7 +1586,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>188</width>
+    <width>260</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-4fc4</wuid>
     <x>1064</x>
@@ -2229,7 +2229,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label_15</name>
     <rules />
@@ -2245,7 +2245,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>78</width>
+    <width>105</width>
     <wrap_words>false</wrap_words>
     <wuid>-3dcd369b:162542adbe0:-7f7e</wuid>
     <x>800</x>
@@ -2401,7 +2401,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_17</name>
     <rules />
@@ -2417,7 +2417,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>245</width>
+    <width>335</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-7679</wuid>
     <x>1064</x>
@@ -2587,7 +2587,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>17</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Limite_1</name>
     <rules />
@@ -2603,7 +2603,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>148</width>
+    <width>202</width>
     <wrap_words>false</wrap_words>
     <wuid>-441c4af7:16261f53d26:-4bca</wuid>
     <x>1066</x>
@@ -2679,7 +2679,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_15</name>
     <precision>0</precision>
@@ -2702,7 +2702,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>29</width>
+    <width>38</width>
     <wrap_words>false</wrap_words>
     <wuid>70471c85:1628b562fb4:-7c2b</wuid>
     <x>997</x>
@@ -2731,7 +2731,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_16</name>
     <precision>0</precision>
@@ -2754,7 +2754,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>29</width>
+    <width>38</width>
     <wrap_words>false</wrap_words>
     <wuid>70471c85:1628b562fb4:-7baf</wuid>
     <x>325</x>
@@ -2783,7 +2783,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_17</name>
     <precision>0</precision>
@@ -2806,7 +2806,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>29</width>
+    <width>38</width>
     <wrap_words>false</wrap_words>
     <wuid>70471c85:1628b562fb4:-7b9f</wuid>
     <x>320</x>
@@ -2835,7 +2835,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_18</name>
     <precision>0</precision>
@@ -2858,7 +2858,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>44</width>
+    <width>57</width>
     <wrap_words>false</wrap_words>
     <wuid>70471c85:1628b562fb4:-7b69</wuid>
     <x>1006</x>
@@ -2887,7 +2887,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_19</name>
     <precision>0</precision>
@@ -2910,7 +2910,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>153</width>
+    <width>208</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7e42</wuid>
     <x>1066</x>
@@ -2939,7 +2939,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_20</name>
     <precision>0</precision>
@@ -2962,7 +2962,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>125</width>
+    <width>168</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7e09</wuid>
     <x>1066</x>
@@ -2991,7 +2991,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_21</name>
     <precision>0</precision>
@@ -3014,7 +3014,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>209</width>
+    <width>288</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7dd0</wuid>
     <x>1064</x>
@@ -3043,7 +3043,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_22</name>
     <precision>0</precision>
@@ -3066,7 +3066,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>182</width>
+    <width>250</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7b97</wuid>
     <x>1066</x>
@@ -3095,7 +3095,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_23</name>
     <precision>0</precision>
@@ -3118,7 +3118,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>188</width>
+    <width>257</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7b49</wuid>
     <x>1066</x>
@@ -3147,7 +3147,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_24</name>
     <precision>0</precision>
@@ -3170,7 +3170,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>209</width>
+    <width>288</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7b2b</wuid>
     <x>1064</x>
@@ -3199,7 +3199,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_25</name>
     <precision>0</precision>
@@ -3222,7 +3222,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>215</width>
+    <width>295</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7af4</wuid>
     <x>1064</x>
@@ -3251,7 +3251,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_26</name>
     <precision>0</precision>
@@ -3274,7 +3274,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>215</width>
+    <width>295</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7ac0</wuid>
     <x>1064</x>
@@ -4181,7 +4181,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_35</name>
     <precision>0</precision>
@@ -4204,7 +4204,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>44</width>
+    <width>57</width>
     <wrap_words>false</wrap_words>
     <wuid>61ae69d8:1629aa319b3:-64c5</wuid>
     <x>711</x>
@@ -4233,7 +4233,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_36</name>
     <precision>0</precision>
@@ -4256,7 +4256,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>44</width>
+    <width>57</width>
     <wrap_words>false</wrap_words>
     <wuid>61ae69d8:1629aa319b3:-5b29</wuid>
     <x>1006</x>
@@ -4285,7 +4285,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>28</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_37</name>
     <precision>0</precision>
@@ -4308,7 +4308,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>44</width>
+    <width>57</width>
     <wrap_words>false</wrap_words>
     <wuid>61ae69d8:1629aa319b3:-5ae6</wuid>
     <x>1006</x>

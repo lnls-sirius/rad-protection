@@ -5,11 +5,11 @@
     <show_legend>false</show_legend>
     <show_toolbar>true</show_toolbar>
     <grid>false</grid>
-    <scroll>false</scroll>
+    <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>2018-04-25 15:49:23.788000000</start>
-    <end>2018-04-25 16:00:26.487000000</end>
+    <start>-30 minutes 0.0 seconds</start>
+    <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
         <red>255</red>
@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.1</min>
-            <max>2.1</max>
+            <min>-0.08950000000000001</min>
+            <max>2.0995</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
