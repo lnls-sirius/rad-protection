@@ -1580,13 +1580,13 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:Berthold:DoseIntegral</text>
+    <text>RAD:Berthold:Int</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>260</width>
+    <width>163</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-4fc4</wuid>
     <x>1064</x>
@@ -4030,7 +4030,7 @@ $(pv_value)</tooltip>
     <name>Text Update_32</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:DoseIntegral</pv_name>
+    <pv_name>RAD:Berthold:Int</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -4317,7 +4317,7 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
     <actions hook="false" hook_all="false">
       <action type="EXECUTE_CMD">
-        <command>python-sirius /opt/lnls-studio/rad-protection/email-linac.py</command>
+        <command>python-sirius /opt/lnls-studio/rad-protection/CSS/visor-sondas/email-linac.py</command>
         <command_directory>$(user.home)</command_directory>
         <wait_time>10</wait_time>
         <description></description>

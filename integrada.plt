@@ -93,9 +93,9 @@
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:DoseIntegral</display_name>
+            <display_name>RAD:Berthold:Int</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:DoseIntegral</name>
+            <name>RAD:Berthold:Int</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -110,11 +110,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>RAD:THERMO:IntegralGamma</display_name>
