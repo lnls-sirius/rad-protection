@@ -62,11 +62,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>RAD:Berthold:TotalDoseRate</display_name>
@@ -278,11 +273,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <formula>
             <display_name>Bg Berthold</display_name>
@@ -299,10 +289,10 @@
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x1 - x1+0.113</formula>
+            <formula>x2 - x2 + 0.113</formula>
             <input>
-                <pv>RAD:Berthold:Gamma</pv>
-                <name>x1</name>
+                <pv>RAD:Berthold:TotalDoseRate</pv>
+                <name>x2</name>
             </input>
         </formula>
         <formula>
@@ -320,7 +310,7 @@
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x5-x5</formula>
+            <formula>x5-x5+0.117</formula>
             <input>
                 <pv>RAD:THERMO:TotalDoseRate</pv>
                 <name>x5</name>
@@ -341,7 +331,7 @@
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x4-x4</formula>
+            <formula>x4-x4+0.119</formula>
             <input>
                 <pv>RAD:ELSE:TotalDoseRate</pv>
                 <name>x4</name>

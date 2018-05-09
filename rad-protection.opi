@@ -21,28 +21,7 @@
   </macros>
   <name></name>
   <rules />
-  <scripts>
-    <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
-      <scriptName>Fundo piscando</scriptName>
-      <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil); 
-var pv0 = PVUtil.getDouble(pvs[0]);
-var pv1 = PVUtil.getDouble(pvs[1]);
-var pv2 = PVUtil.getDouble(pvs[2]);
-var pv3 = PVUtil.getDouble(pvs[3]);
-if(pv0 >= 2 || pv1 >= 2 || pv2 >= 2)
-	if(pv3 == 0)
-		widget.setPropertyValue("background_color","Red");
-	else if(pv3 == 1)
-		widget.setPropertyValue("background_color",ColorFontUtil.getColorFromRGB(240,240,240));
-else
-	widget.setPropertyValue("background_color",ColorFontUtil.getColorFromRGB(240,240,240));
-]]></scriptText>
-      <pv trig="true">RAD:THERMO:DoseIntegral</pv>
-      <pv trig="true">RAD:ELSE:DoseIntegral</pv>
-      <pv trig="true">RAD:Berthold:DoseIntegral</pv>
-      <pv trig="true">sim://ramp(0,1,1,0.5)</pv>
-    </path>
-  </scripts>
+  <scripts />
   <show_close_button>true</show_close_button>
   <show_edit_range>true</show_edit_range>
   <show_grid>true</show_grid>
@@ -1580,13 +1559,13 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:Berthold:Int</text>
+    <text>RAD:Berthold:DoseIntegral</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>163</width>
+    <width>260</width>
     <wrap_words>false</wrap_words>
     <wuid>-16d0487:1624dd81358:-4fc4</wuid>
     <x>1064</x>
@@ -4030,7 +4009,7 @@ $(pv_value)</tooltip>
     <name>Text Update_32</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:Int</pv_name>
+    <pv_name>RAD:Berthold:DoseIntegral</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
