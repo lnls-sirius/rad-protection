@@ -14,12 +14,12 @@ def send(thermo, valorthermo, el, valorel, berthold, valorberthold):
 
     smtp.login('controle.supervisorio@gmail.com', 'Controle123')
 
-    subject = 'Alerta Radiacao via supervisorio'
+    subject = 'Alerta Radiação via Supervisório'
     mail_de = 'controle.supervisorio@gmail.com'
-    mail_para = 'aureo.carneiro@gmail.com'#'fernando.bacchim@lnls.br'
+    mail_para = 'fernando.bacchim@lnls.br'
     mail_msgm1 = 'Subject: %s\n\n%s' % (subject,'ALERTA !!\nUma das sondas de Radiação atingiu o limite da Integral em 4 horas!')
     mail_msgm2 = '\n \nDiagnóstico dos dados: \n \n' + '{}:  {} uSv \n{}:  {} uSv \n{}:  {} uSv \n'.format(thermo, valorthermo, el, valorel, berthold, valorberthold)
-    mail_msgm3 = '\n\nbservação: O email foi enviado pelo supervisório pois alguém apertou o botão para restaurar o sistema'
+    mail_msgm3 = '\n\nObservação: O email foi enviado pelo supervisório pois alguém apertou o botão para restaurar o sistema'
     mail_msgm4 = '\n\nProteção Radiológica - SIRIUS\nGrupo de Controle\nLNLS - CNPEM'
     mail_msgm = mail_msgm1 + mail_msgm2 + mail_msgm3 + mail_msgm4
     smtp.sendmail(mail_de,mail_para, mail_msgm)
