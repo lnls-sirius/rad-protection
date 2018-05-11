@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.288</min>
-            <max>6.048</max>
+            <min>-0.0177</min>
+            <max>0.3717</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -62,6 +62,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:Berthold:TotalDoseRate</display_name>
@@ -273,6 +278,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <formula>
             <display_name>Bg Berthold</display_name>

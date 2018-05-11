@@ -63,7 +63,7 @@
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <height>55</height>
-    <image>if_home_298794.png</image>
+    <image>Imagens/if_home_298794.png</image>
     <name>Action Button</name>
     <push_action_index>0</push_action_index>
     <pv_name></pv_name>
@@ -1932,7 +1932,7 @@ $(pv_value)</tooltip>
     <name>Text Update</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>sim://const(0.0)</pv_name>
+    <pv_name>sim://const(0.117)</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1984,7 +1984,7 @@ $(pv_value)</tooltip>
     <name>Text Update_22</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>sim://const(0.0)</pv_name>
+    <pv_name>sim://const(0.119)</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -2111,77 +2111,5 @@ $(pv_value)</tooltip>
     <wuid>61ae69d8:1629aa319b3:-5bd8</wuid>
     <x>1396</x>
     <y>852</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <actions hook="false" hook_all="false">
-      <action type="OPEN_DISPLAY">
-        <path>Visor de alerta.opi</path>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-        </macros>
-        <mode>0</mode>
-        <description></description>
-      </action>
-    </actions>
-    <alarm_pulsing>false</alarm_pulsing>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color name="Header MainColor" red="255" green="255" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color name="Header MainColor" red="255" green="255" blue="255" />
-    </foreground_color>
-    <height>40</height>
-    <image></image>
-    <name>Action Button_34</name>
-    <push_action_index>0</push_action_index>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts>
-      <path pathString="EmbeddedJs" checkConnect="true" sfe="false" seoe="false">
-        <scriptName>Abrir tela de alerta</scriptName>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-var pv0 = PVUtil.getDouble(pvs[0]);
-var pv1 = PVUtil.getDouble(pvs[1]);
-var pv2 = PVUtil.getDouble(pvs[2]);
-
-if(pv0 >= 2 || pv1 >= 2 || pv2 >= 2)
-	widget.executeAction(0); //execute the first attached action
-else
-	widget.setPropertyValue("background_color",ColorFontUtil.getColorFromRGB(240,240,240));
-]]></scriptText>
-        <pv trig="true">RAD:THERMO:DoseIntegral</pv>
-        <pv trig="true">RAD:Berthold:DoseIntegral</pv>
-        <pv trig="true">RAD:ELSE:DoseIntegral</pv>
-      </path>
-    </scripts>
-    <style>0</style>
-    <text>alerta</text>
-    <toggle_button>false</toggle_button>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <visible>false</visible>
-    <widget_type>Action Button</widget_type>
-    <width>80</width>
-    <wuid>-1078216:1633bd40fae:-7e92</wuid>
-    <x>1326</x>
-    <y>42</y>
   </widget>
 </display>
