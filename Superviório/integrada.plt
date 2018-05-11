@@ -34,8 +34,8 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.08950000000000001</min>
-            <max>2.0995</max>
+            <min>-0.1</min>
+            <max>2.1</max>
             <grid>false</grid>
             <autoscale>true</autoscale>
             <log_scale>false</log_scale>
@@ -62,6 +62,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:THERMO:DoseIntegral</display_name>
@@ -81,11 +86,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:DoseIntegral</display_name>
+            <display_name>RAD:Berthold:Int</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:DoseIntegral</name>
+            <name>RAD:Berthold:Int</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -100,6 +110,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:THERMO:IntegralGamma</display_name>
@@ -119,6 +134,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:THERMO:IntegralNeutron</display_name>
@@ -138,6 +158,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:ELSE:IntegralGamma</display_name>
@@ -157,6 +182,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <display_name>RAD:ELSE:IntegralNeutron</display_name>
@@ -176,11 +206,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:IntegralGamma</display_name>
+            <display_name>RAD:Berthold:IntGamma</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:IntegralGamma</name>
+            <name>RAD:Berthold:IntGamma</name>
             <axis>0</axis>
             <color>
                 <red>30</red>
@@ -195,11 +230,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:IntegralNeutron</display_name>
+            <display_name>RAD:Berthold:IntNeutron</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:IntegralNeutron</name>
+            <name>RAD:Berthold:IntNeutron</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -214,6 +254,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>All</name>
+                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <key>1</key>
+            </archive>
         </pv>
         <formula>
             <display_name>limite</display_name>
