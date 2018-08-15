@@ -57,7 +57,7 @@
     <scripts />
     <show_toolbar>true</show_toolbar>
     <tooltip></tooltip>
-    <url>10.0.4.57</url>
+    <url>10.0.6.57</url>
     <visible>true</visible>
     <widget_type>Web Browser</widget_type>
     <width>1555</width>

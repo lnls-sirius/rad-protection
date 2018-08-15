@@ -34,10 +34,10 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.1</min>
-            <max>2.1</max>
+            <min>-0.0217</min>
+            <max>2.5</max>
             <grid>false</grid>
-            <autoscale>true</autoscale>
+            <autoscale>false</autoscale>
             <log_scale>false</log_scale>
         </axis>
     </axes>
@@ -45,9 +45,9 @@
     </annotations>
     <pvlist>
         <pv>
-            <display_name>RAD:ELSE:DoseIntegral</display_name>
+            <display_name>RAD:ELSE:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:DoseIntegral</name>
+            <name>RAD:ELSE:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -64,14 +64,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:DoseIntegral</display_name>
+            <display_name>RAD:Thermo1:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:DoseIntegral</name>
+            <name>RAD:Thermo1:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -86,16 +86,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:Int</display_name>
+            <display_name>RAD:Berthold:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:Int</name>
+            <name>RAD:Berthold:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -112,156 +107,146 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:IntegralGamma</display_name>
+            <display_name>RAD:Thermo1:Gamma:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:IntegralGamma</name>
+            <name>RAD:Thermo1:Gamma:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
+            <request>RAW</request>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:IntegralNeutron</display_name>
+            <display_name>RAD:Thermo1:Neutron:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:IntegralNeutron</name>
+            <name>RAD:Thermo1:Neutron:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>159</red>
                 <green>150</green>
                 <blue>150</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
+            <request>RAW</request>
         </pv>
         <pv>
-            <display_name>RAD:ELSE:IntegralGamma</display_name>
+            <display_name>RAD:ELSE:Gamma:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:IntegralGamma</name>
+            <name>RAD:ELSE:Gamma:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
                 <green>128</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:ELSE:IntegralNeutron</display_name>
+            <display_name>RAD:ELSE:Neutron:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:IntegralNeutron</name>
+            <name>RAD:ELSE:Neutron:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>150</red>
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:IntGamma</display_name>
+            <display_name>RAD:Berthold:Gamma:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:IntGamma</name>
+            <name>RAD:Berthold:Gamma:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>30</red>
                 <green>255</green>
                 <blue>253</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:IntNeutron</display_name>
+            <display_name>RAD:Berthold:TotalNeutronRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:IntNeutron</name>
+            <name>RAD:Berthold:TotalNeutronRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
                 <green>255</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <formula>
-            <display_name>limite</display_name>
+            <display_name>Limite</display_name>
             <visible>true</visible>
             <name>B</name>
             <axis>0</axis>
@@ -275,10 +260,10 @@
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x2-x2+2</formula>
+            <formula>x3-x3+2</formula>
             <input>
-                <pv>RAD:THERMO:DoseIntegral</pv>
-                <name>x2</name>
+                <pv>RAD:Berthold:TotalDoseRate:Dose-T</pv>
+                <name>x3</name>
             </input>
         </formula>
     </pvlist>

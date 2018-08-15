@@ -34,10 +34,10 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.0177</min>
-            <max>0.3717</max>
+            <min>-0.00735</min>
+            <max>0.15435</max>
             <grid>false</grid>
-            <autoscale>true</autoscale>
+            <autoscale>false</autoscale>
             <log_scale>false</log_scale>
         </axis>
     </axes>
@@ -47,7 +47,7 @@
         <pv>
             <display_name>RAD:Berthold:Gamma</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:Gamma</name>
+            <name>RAD:Berthold:Gamma-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -64,14 +64,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>RAD:Berthold:TotalDoseRate</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:TotalDoseRate</name>
+            <name>RAD:Berthold:TotalDoseRate-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -88,14 +88,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>RAD:Berthold:TotalNeutronRate</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:TotalNeutronRate</name>
+            <name>RAD:Berthold:TotalNeutronRate-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -112,14 +112,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>RAD:ELSE:TotalDoseRate</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:TotalDoseRate</name>
+            <name>RAD:ELSE:TotalDoseRate-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -136,14 +136,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:TotalDoseRate</display_name>
+            <display_name>RAD:Thermo1:TotalDoseRate</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:TotalDoseRate</name>
+            <name>RAD:Thermo1:TotalDoseRate-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -158,16 +158,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>RAD:ELSE:Gamma</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:Gamma</name>
+            <name>RAD:ELSE:Gamma-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
@@ -184,14 +179,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
             <display_name>RAD:ELSE:Neutron</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:Neutron</name>
+            <name>RAD:ELSE:Neutron-T</name>
             <axis>0</axis>
             <color>
                 <red>150</red>
@@ -208,14 +203,14 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:Neutron</display_name>
+            <display_name>RAD:Thermo1:Neutron</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:Neutron</name>
+            <name>RAD:Thermo1:Neutron-T</name>
             <axis>0</axis>
             <color>
                 <red>159</red>
@@ -230,16 +225,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:Gamma</display_name>
+            <display_name>RAD:Thermo1:Gamma</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:Gamma</name>
+            <name>RAD:Thermo1:Gamma-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -254,16 +244,11 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <pv>
             <display_name>RAD:Berthold:HighEnergyNeutrons</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:HighEnergyNeutrons</name>
+            <name>RAD:Berthold:HighEnergyNeutrons-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
@@ -280,7 +265,7 @@
             <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
@@ -301,7 +286,7 @@
             <waveform_index>0</waveform_index>
             <formula>x2 - x2 + 0.113</formula>
             <input>
-                <pv>RAD:Berthold:TotalDoseRate</pv>
+                <pv>RAD:Berthold:TotalDoseRate-T</pv>
                 <name>x2</name>
             </input>
         </formula>
@@ -322,7 +307,7 @@
             <waveform_index>0</waveform_index>
             <formula>x5-x5+0.117</formula>
             <input>
-                <pv>RAD:THERMO:TotalDoseRate</pv>
+                <pv>RAD:Thermo1:TotalDoseRate-T</pv>
                 <name>x5</name>
             </input>
         </formula>
@@ -343,7 +328,7 @@
             <waveform_index>0</waveform_index>
             <formula>x4-x4+0.119</formula>
             <input>
-                <pv>RAD:ELSE:TotalDoseRate</pv>
+                <pv>RAD:ELSE:TotalDoseRate-T</pv>
                 <name>x4</name>
             </input>
         </formula>

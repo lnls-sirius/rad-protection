@@ -197,7 +197,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Limite</name>
     <rules />
@@ -213,7 +213,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>59</width>
+    <width>43</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728f</wuid>
     <x>1488</x>
@@ -237,7 +237,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_3</name>
     <rules />
@@ -247,13 +247,13 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:THERMO:DoseIntegral</text>
+    <text>RAD:Thermo1:TotalDoseRate:Dose-T</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>260</width>
+    <width>243</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728e</wuid>
     <x>594</x>
@@ -277,7 +277,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_4</name>
     <rules />
@@ -287,13 +287,13 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:ELSE:DoseIntegral</text>
+    <text>RAD:ELSE:TotalDoseRate:Dose-T</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>222</width>
+    <width>216</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-728d</wuid>
     <x>1056</x>
@@ -327,7 +327,7 @@ $(pv_value)</tooltip>
     <name>Text Update_10</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:ELSE:IntegralGamma</pv_name>
+    <pv_name>RAD:ELSE:Gamma:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -379,7 +379,7 @@ $(pv_value)</tooltip>
     <name>Text Update_11</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:ELSE:DoseIntegral</pv_name>
+    <pv_name>RAD:ELSE:TotalDoseRate:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -431,7 +431,7 @@ $(pv_value)</tooltip>
     <name>Text Update_12</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:ELSE:IntegralNeutron</pv_name>
+    <pv_name>RAD:ELSE:Neutron:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -473,7 +473,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>17</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label_14</name>
     <rules />
@@ -483,13 +483,13 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <scripts />
-    <text>RAD:Berthold:Int</text>
+    <text>RAD:Berthold:TotalDoseRate:Dose-T</text>
     <tooltip></tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>163</width>
+    <width>243</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7289</wuid>
     <x>126</x>
@@ -706,7 +706,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_15</name>
     <precision>0</precision>
@@ -729,7 +729,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>38</width>
+    <width>27</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7284</wuid>
     <x>1440</x>
@@ -758,7 +758,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_21</name>
     <precision>0</precision>
@@ -774,14 +774,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:Berthold:IntGamma</text>
+    <text>RAD:Berthold:Gamma:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>239</width>
+    <width>201</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7283</wuid>
     <x>126</x>
@@ -810,7 +810,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_22</name>
     <precision>0</precision>
@@ -826,14 +826,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:ELSE:IntegralGamma</text>
+    <text>RAD:ELSE:Gamma:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>250</width>
+    <width>174</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7282</wuid>
     <x>1056</x>
@@ -862,7 +862,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_23</name>
     <precision>0</precision>
@@ -878,14 +878,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:ELSE:IntegralNeutron</text>
+    <text>RAD:ELSE:Neutron:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>257</width>
+    <width>178</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7281</wuid>
     <x>1056</x>
@@ -914,7 +914,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_24</name>
     <precision>0</precision>
@@ -930,14 +930,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:THERMO:IntegralGamma</text>
+    <text>RAD:Thermo1:Gamma:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>288</width>
+    <width>201</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-7280</wuid>
     <x>594</x>
@@ -966,7 +966,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_25</name>
     <precision>0</precision>
@@ -982,14 +982,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:THERMO:IntegralNeutron</text>
+    <text>RAD:Thermo1:Neutron:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>295</width>
+    <width>205</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727f</wuid>
     <x>594</x>
@@ -1018,7 +1018,7 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>28</height>
+    <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update_26</name>
     <precision>0</precision>
@@ -1034,14 +1034,14 @@ $(pv_value)</tooltip>
     </scale_options>
     <scripts />
     <show_units>true</show_units>
-    <text>RAD:Berthold:IntNeutron</text>
+    <text>RAD:Berthold:TotalNeutronRate:Dose-T</text>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <transparent>true</transparent>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>246</width>
+    <width>269</width>
     <wrap_words>false</wrap_words>
     <wuid>6e7c8824:16296f05d63:-727e</wuid>
     <x>126</x>
@@ -1351,7 +1351,7 @@ $(pv_value)</tooltip>
     <name>Text Update_27</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:Int</pv_name>
+    <pv_name>RAD:Berthold:TotalDoseRate-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1403,7 +1403,7 @@ $(pv_value)</tooltip>
     <name>Text Update_28</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:IntGamma</pv_name>
+    <pv_name>RAD:Berthold:Gamma:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1455,7 +1455,7 @@ $(pv_value)</tooltip>
     <name>Text Update_29</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:IntNeutron</pv_name>
+    <pv_name>RAD:Berthold:TotalNeutronRate:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1507,7 +1507,7 @@ $(pv_value)</tooltip>
     <name>Text Update_30</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:THERMO:DoseIntegral</pv_name>
+    <pv_name>RAD:Thermo1:TotalDoseRate:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1559,7 +1559,7 @@ $(pv_value)</tooltip>
     <name>Text Update_31</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:THERMO:IntegralGamma</pv_name>
+    <pv_name>RAD:Thermo1:Gamma:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -1611,7 +1611,7 @@ $(pv_value)</tooltip>
     <name>Text Update_32</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:THERMO:IntegralNeutron</pv_name>
+    <pv_name>RAD:Thermo1:Neutron:Dose-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />

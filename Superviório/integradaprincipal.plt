@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-4 hours 0.0 seconds</start>
+    <start>-1 hour</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
@@ -34,10 +34,10 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>0.3725</min>
-            <max>2.0775</max>
+            <min>0.0</min>
+            <max>2.5</max>
             <grid>false</grid>
-            <autoscale>true</autoscale>
+            <autoscale>false</autoscale>
             <log_scale>false</log_scale>
         </axis>
     </axes>
@@ -45,76 +45,71 @@
     </annotations>
     <pvlist>
         <pv>
-            <display_name>RAD:ELSE:DoseIntegral</display_name>
+            <display_name>RAD:ELSE:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:ELSE:DoseIntegral</name>
+            <name>RAD:ELSE:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
                 <green>255</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Berthold:Int</display_name>
+            <display_name>RAD:Berthold:TotalDoseRate-T</display_name>
             <visible>true</visible>
-            <name>RAD:Berthold:Int</name>
+            <name>RAD:Berthold:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>255</red>
                 <green>0</green>
                 <blue>255</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
+            <request>RAW</request>
             <archive>
                 <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
+                <url>pbraw://10.0.6.57:11998/retrieval</url>
                 <key>1</key>
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:THERMO:DoseIntegral</display_name>
+            <display_name>RAD:THERMO:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:THERMO:DoseIntegral</name>
+            <name>RAD:Thermo1:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
                 <green>0</green>
                 <blue>255</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
             <period>0.0</period>
             <ring_size>5000</ring_size>
-            <request>OPTIMIZED</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.4.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
+            <request>RAW</request>
         </pv>
         <formula>
             <display_name>Limite</display_name>
@@ -126,15 +121,15 @@
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <trace_type>AREA</trace_type>
+            <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x3 - x3 +2</formula>
+            <formula>x2-x2+2</formula>
             <input>
-                <pv>RAD:THERMO:DoseIntegral</pv>
-                <name>x3</name>
+                <pv>RAD:Berthold:TotalDoseRate:Dose-T</pv>
+                <name>x2</name>
             </input>
         </formula>
     </pvlist>

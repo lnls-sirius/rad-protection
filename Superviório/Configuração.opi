@@ -186,7 +186,7 @@ $(pv_value)</tooltip>
     </items>
     <items_from_pv>false</items_from_pv>
     <name>Combo1</name>
-    <pv_name>RAD:Berthold:AveragingTime-SP</pv_name>
+    <pv_name>RAD:Berthold:AveragingTime-SP-T</pv_name>
     <pv_value />
     <rules />
     <scale_options>
@@ -309,7 +309,7 @@ $(pv_value)</tooltip>
     <trace_0_x_pv></trace_0_x_pv>
     <trace_0_x_pv_value />
     <trace_0_y_axis_index>1</trace_0_y_axis_index>
-    <trace_0_y_pv>RAD:Berthold:Gamma</trace_0_y_pv>
+    <trace_0_y_pv>RAD:Berthold:Gamma-T</trace_0_y_pv>
     <trace_0_y_pv_value />
     <trace_count>1</trace_count>
     <transparent>false</transparent>
@@ -350,7 +350,7 @@ $(pv_value)</tooltip>
     <name>TextUpdate1</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:AveragingTime-RB</pv_name>
+    <pv_name>RAD:Berthold:AveragingTime-RB-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -441,7 +441,7 @@ $(pv_value)</tooltip>
     <name>TextUpdate2</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:TotalDoseRate</pv_name>
+    <pv_name>RAD:Berthold:TotalDoseRate-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -532,7 +532,7 @@ $(pv_value)</tooltip>
     <name>TextUpdate3</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:Gamma</pv_name>
+    <pv_name>RAD:Berthold:Gamma-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -623,7 +623,7 @@ $(pv_value)</tooltip>
     <name>TextUpdate4</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:TotalNeutronRate</pv_name>
+    <pv_name>RAD:Berthold:TotalNeutronRate-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
@@ -714,7 +714,7 @@ $(pv_value)</tooltip>
     <name>TextUpdate5</name>
     <precision>0</precision>
     <precision_from_pv>true</precision_from_pv>
-    <pv_name>RAD:Berthold:HighEnergyNeutrons</pv_name>
+    <pv_name>RAD:Berthold:HighEnergyNeutrons-T</pv_name>
     <pv_value />
     <rotation_angle>0.0</rotation_angle>
     <rules />
