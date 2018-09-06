@@ -10,7 +10,7 @@
   <background_color>
     <color name="Header MainColor" red="255" green="255" blue="255" />
   </background_color>
-  <boy_version>5.1.0.201711290101</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="Header MainColor" red="255" green="255" blue="255" />
   </foreground_color>
@@ -84,7 +84,7 @@ $(pv_value)</tooltip>
     <widget_type>Action Button</widget_type>
     <width>61</width>
     <wuid>-16d0487:1624dd81358:-4b9e</wuid>
-    <x>750</x>
+    <x>900</x>
     <y>15</y>
   </widget>
   <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
@@ -122,7 +122,7 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <visible>true</visible>
     <widget_type>Data Browser</widget_type>
-    <width>1550</width>
+    <width>1900</width>
     <wuid>-3dcd369b:162542adbe0:-7ba2</wuid>
     <x>0</x>
     <y>90</y>
@@ -500,7 +500,7 @@ $(pv_value)</tooltip>
     <alarm_pulsing>false</alarm_pulsing>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color name="Major" red="255" green="0" blue="0" />
+      <color name="Major" red="250" green="12" blue="14" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
@@ -547,7 +547,7 @@ $(pv_value)</tooltip>
     <alarm_pulsing>false</alarm_pulsing>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <background_color>
-      <color name="Minor" red="255" green="128" blue="0" />
+      <color name="Minor" red="255" green="255" blue="0" />
     </background_color>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <border_color>
