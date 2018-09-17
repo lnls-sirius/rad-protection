@@ -10,7 +10,7 @@
   <background_color>
     <color name="Header MainColor" red="255" green="255" blue="255" />
   </background_color>
-  <boy_version>5.1.0.201711290101</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="Header MainColor" red="255" green="255" blue="255" />
   </foreground_color>
@@ -202,125 +202,6 @@ $(pv_value)</tooltip>
     <wuid>d81fc8b:163df6a86a7:-7ed2</wuid>
     <x>876</x>
     <y>181</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <axis_0_auto_scale>true</axis_0_auto_scale>
-    <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <axis_0_axis_color>
-      <color red="0" green="0" blue="0" />
-    </axis_0_axis_color>
-    <axis_0_axis_title>Tempo</axis_0_axis_title>
-    <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
-    <axis_0_grid_color>
-      <color red="200" green="200" blue="200" />
-    </axis_0_grid_color>
-    <axis_0_log_scale>false</axis_0_log_scale>
-    <axis_0_maximum>100.0</axis_0_maximum>
-    <axis_0_minimum>0.0</axis_0_minimum>
-    <axis_0_scale_font>
-      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
-    </axis_0_scale_font>
-    <axis_0_scale_format></axis_0_scale_format>
-    <axis_0_show_grid>true</axis_0_show_grid>
-    <axis_0_time_format>3</axis_0_time_format>
-    <axis_0_title_font>
-      <opifont.name fontName="Ubuntu" height="11" style="1" pixels="false">Default Bold</opifont.name>
-    </axis_0_title_font>
-    <axis_0_visible>true</axis_0_visible>
-    <axis_1_auto_scale>true</axis_1_auto_scale>
-    <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
-    <axis_1_axis_color>
-      <color red="0" green="0" blue="0" />
-    </axis_1_axis_color>
-    <axis_1_axis_title>Taxa de dose (uSv/h)</axis_1_axis_title>
-    <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
-    <axis_1_grid_color>
-      <color red="200" green="200" blue="200" />
-    </axis_1_grid_color>
-    <axis_1_log_scale>false</axis_1_log_scale>
-    <axis_1_maximum>100.0</axis_1_maximum>
-    <axis_1_minimum>0.0</axis_1_minimum>
-    <axis_1_scale_font>
-      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
-    </axis_1_scale_font>
-    <axis_1_scale_format></axis_1_scale_format>
-    <axis_1_show_grid>true</axis_1_show_grid>
-    <axis_1_time_format>0</axis_1_time_format>
-    <axis_1_title_font>
-      <opifont.name fontName="Ubuntu" height="11" style="1" pixels="false">Default Bold</opifont.name>
-    </axis_1_title_font>
-    <axis_1_visible>true</axis_1_visible>
-    <axis_count>2</axis_count>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>1</border_width>
-    <enabled>true</enabled>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color red="0" green="0" blue="255" />
-    </foreground_color>
-    <height>408</height>
-    <name>XYGraph1</name>
-    <plot_area_background_color>
-      <color red="255" green="255" blue="255" />
-    </plot_area_background_color>
-    <pv_name></pv_name>
-    <pv_value />
-    <rules />
-    <scale_options>
-      <width_scalable>false</width_scalable>
-      <height_scalable>false</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_legend>true</show_legend>
-    <show_plot_area_border>false</show_plot_area_border>
-    <show_toolbar>false</show_toolbar>
-    <title></title>
-    <title_font>
-      <opifont.name fontName="Ubuntu" height="11" style="1" pixels="false">Default Bold</opifont.name>
-    </title_font>
-    <tooltip>$(trace_0_y_pv), $(trace_0_y_pv_value)</tooltip>
-    <trace_0_anti_alias>true</trace_0_anti_alias>
-    <trace_0_buffer_size>6000</trace_0_buffer_size>
-    <trace_0_concatenate_data>true</trace_0_concatenate_data>
-    <trace_0_line_width>2</trace_0_line_width>
-    <trace_0_name>$(trace_0_y_pv)</trace_0_name>
-    <trace_0_plot_mode>0</trace_0_plot_mode>
-    <trace_0_point_size>4</trace_0_point_size>
-    <trace_0_point_style>0</trace_0_point_style>
-    <trace_0_trace_color>
-      <color red="21" green="21" blue="196" />
-    </trace_0_trace_color>
-    <trace_0_trace_type>5</trace_0_trace_type>
-    <trace_0_update_delay>100</trace_0_update_delay>
-    <trace_0_update_mode>4</trace_0_update_mode>
-    <trace_0_visible>true</trace_0_visible>
-    <trace_0_x_axis_index>0</trace_0_x_axis_index>
-    <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_x_pv_value />
-    <trace_0_y_axis_index>1</trace_0_y_axis_index>
-    <trace_0_y_pv>RAD:Berthold:Gamma-T</trace_0_y_pv>
-    <trace_0_y_pv_value />
-    <trace_count>1</trace_count>
-    <transparent>false</transparent>
-    <trigger_pv>sim://table(0.1)</trigger_pv>
-    <trigger_pv_value />
-    <visible>true</visible>
-    <widget_type>XY Graph</widget_type>
-    <width>613</width>
-    <wuid>d81fc8b:163df6a86a7:-7ed1</wuid>
-    <x>570</x>
-    <y>222</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -816,5 +697,45 @@ $(pv_value)</tooltip>
     <wuid>d81fc8b:163df6a86a7:-7ebf</wuid>
     <x>701</x>
     <y>123</y>
+  </widget>
+  <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>1</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <filename>config_berthold.plt</filename>
+    <font>
+      <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <height>422</height>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <name>config_berthold</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <selection_value_pv></selection_value_pv>
+    <show_value_labels>false</show_value_labels>
+    <tooltip></tooltip>
+    <visible>true</visible>
+    <widget_type>Data Browser</widget_type>
+    <width>624</width>
+    <wuid>-3a61f950:165d4d14ca8:-7fa5</wuid>
+    <x>565</x>
+    <y>228</y>
   </widget>
 </display>

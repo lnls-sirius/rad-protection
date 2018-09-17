@@ -206,7 +206,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1828</width>
       <wuid>-9709b62:165a67526ec:-7f90</wuid>
@@ -223,7 +223,7 @@ $(pv_value)</tooltip>
         <border_style>1</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <filename>instantaneo.plt</filename>
+        <filename>instant_all.plt</filename>
         <font>
           <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
         </font>
@@ -2845,7 +2845,7 @@ $(pv_value)</tooltip>
         <border_style>1</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <filename>Berthold.plt</filename>
+        <filename>instant_berthold.plt</filename>
         <font>
           <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
         </font>
@@ -3343,7 +3343,7 @@ $(pv_value)</tooltip>
         <border_style>1</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <filename>ELSE.plt</filename>
+        <filename>instant_else.plt</filename>
         <font>
           <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
         </font>
@@ -3407,7 +3407,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1828</width>
       <wuid>-9709b62:165a67526ec:-7f8d</wuid>
@@ -3841,7 +3841,7 @@ $(pv_value)</tooltip>
         <border_style>1</border_style>
         <border_width>1</border_width>
         <enabled>true</enabled>
-        <filename>Thermo1.plt</filename>
+        <filename>instant_thermo1.plt</filename>
         <font>
           <opifont.name fontName="Ubuntu" height="11" style="0" pixels="false">Default</opifont.name>
         </font>
