@@ -8,7 +8,7 @@
     <scroll>true</scroll>
     <update_period>3.0</update_period>
     <scroll_step>5</scroll_step>
-    <start>-4 hours 0.0 seconds</start>
+    <start>-1 hour</start>
     <end>now</end>
     <archive_rescale>NONE</archive_rescale>
     <background>
@@ -34,7 +34,7 @@
             </color>
             <label_font>|10|0</label_font>
             <scale_font>|10|0</scale_font>
-            <min>-0.0217</min>
+            <min>0.0</min>
             <max>2.5</max>
             <grid>false</grid>
             <autoscale>false</autoscale>
@@ -69,26 +69,7 @@
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Thermo1:TotalDoseRate:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:Thermo1:TotalDoseRate:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>0</red>
-                <green>0</green>
-                <blue>255</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-        </pv>
-        <pv>
-            <display_name>RAD:Berthold:TotalDoseRate:Dose-T</display_name>
+            <display_name>RAD:Berthold:TotalDoseRate-T</display_name>
             <visible>true</visible>
             <name>RAD:Berthold:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
@@ -112,14 +93,14 @@
             </archive>
         </pv>
         <pv>
-            <display_name>RAD:Thermo1:Gamma:Dose-T</display_name>
+            <display_name>RAD:THERMO:TotalDoseRate:Dose-T</display_name>
             <visible>true</visible>
-            <name>RAD:Thermo1:Gamma:Dose-T</name>
+            <name>RAD:Thermo1:TotalDoseRate:Dose-T</name>
             <axis>0</axis>
             <color>
                 <red>0</red>
                 <green>0</green>
-                <blue>0</blue>
+                <blue>255</blue>
             </color>
             <trace_type>SINGLE_LINE</trace_type>
             <linewidth>2</linewidth>
@@ -129,121 +110,6 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>RAW</request>
-        </pv>
-        <pv>
-            <display_name>RAD:Thermo1:Neutron:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:Thermo1:Neutron:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>159</red>
-                <green>150</green>
-                <blue>150</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-        </pv>
-        <pv>
-            <display_name>RAD:ELSE:Gamma:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:ELSE:Gamma:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>255</red>
-                <green>128</green>
-                <blue>0</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.6.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
-        </pv>
-        <pv>
-            <display_name>RAD:ELSE:Neutron:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:ELSE:Neutron:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>150</red>
-                <green>0</green>
-                <blue>0</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.6.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
-        </pv>
-        <pv>
-            <display_name>RAD:Berthold:Gamma:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:Berthold:Gamma:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>30</red>
-                <green>255</green>
-                <blue>253</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.6.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
-        </pv>
-        <pv>
-            <display_name>RAD:Berthold:TotalNeutronRate:Dose-T</display_name>
-            <visible>true</visible>
-            <name>RAD:Berthold:TotalNeutronRate:Dose-T</name>
-            <axis>0</axis>
-            <color>
-                <red>255</red>
-                <green>255</green>
-                <blue>0</blue>
-            </color>
-            <trace_type>SINGLE_LINE</trace_type>
-            <linewidth>2</linewidth>
-            <point_type>NONE</point_type>
-            <point_size>2</point_size>
-            <waveform_index>0</waveform_index>
-            <period>0.0</period>
-            <ring_size>5000</ring_size>
-            <request>RAW</request>
-            <archive>
-                <name>All</name>
-                <url>pbraw://10.0.6.57:11998/retrieval</url>
-                <key>1</key>
-            </archive>
         </pv>
         <formula>
             <display_name>Limite</display_name>
@@ -260,10 +126,10 @@
             <point_type>NONE</point_type>
             <point_size>2</point_size>
             <waveform_index>0</waveform_index>
-            <formula>x3-x3+2</formula>
+            <formula>x2-x2+2</formula>
             <input>
                 <pv>RAD:Berthold:TotalDoseRate:Dose-T</pv>
-                <name>x3</name>
+                <name>x2</name>
             </input>
         </formula>
     </pvlist>
